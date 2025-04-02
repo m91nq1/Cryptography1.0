@@ -19,7 +19,7 @@ def decrypt_file(file_path, key):
 
 def main():
     key_file = 'secret.key'  
-    encrypted_file_path = r'D:\Bliss.txt'  # Path to the encrypted file
+    encrypted_file_path = r'D:\Bliss.txt' 
 
     if os.path.exists(key_file):
         key = load_key(key_file)
