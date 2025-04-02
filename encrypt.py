@@ -24,8 +24,8 @@ def encrypt_file(file_path, key):
     print(f"File '{file_path}' has been encrypted.")
 
 def main():
-    key_file = 'secret.key'  # Key file location
-    code_file_path = r'D:\Bliss.txt'  # Path to the file you want to encrypt
+    key_file = 'secret.key'  
+    code_file_path = r'D:\Bliss.txt'  
 
     # Create or load the key
     if os.path.exists(key_file):
